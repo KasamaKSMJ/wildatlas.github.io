@@ -1,10 +1,10 @@
 
 import './About.css';
 
-import aboutHero from '../assets/91436.jpg';
-import exploreImage from '../assets/About/About03.jpg';
-import discoverImage from '../assets/About/About04.jpg';
-import experienceImage from '../assets/About/About05.jpg';
+import aboutHero from '../assets/About/about-cover.jpg';
+import exploreImage from '../assets/About/explore.jpg';
+import discoverImage from '../assets/About/discover.jpg';
+import experienceImage from '../assets/About/experience.jpg';
 
 function About() {
   return (
@@ -31,7 +31,11 @@ function About() {
           </h1>
 
           <span>
-            Discover the world beyond the ordinary.
+            WildAtlas is a gateway to a world of travel, adventure, and discovery, where you can explore remarkable places and uncover their stories through your own perspective.
+            More than just a travel guide, WildAtlas goes beyond recommending destinations, hidden gems, and places worth staying. It is designed to lead you toward new experiences, greater discoveries, and thrilling adventures waiting beyond the horizon.
+            Every journey comes with its own challenges and unexpected obstacles. That's why WildAtlas is here to be your personal, always-accessible encyclopedia — a companion you can carry with you, 24 hours a day, providing valuable knowledge about the wildlife, nature, and surroundings of every territory you explore.
+            No traveler's home, no explorer's camp, and no adventurer's journey across this boundless world would ever be complete without this mobile encyclopedia by their side.
+            Explore the unknown. Discover the extraordinary. Let WildAtlas be your companion.
           </span>
         </div>
 
@@ -94,8 +98,8 @@ function About() {
 
       </section>
 
-      {/* 05. Closing Section */}
-      <section className="about-closing">
+        {/* ROLE SELECTION */}
+        <section className="roles-section about-closing">
 
         <h2>
           Your Next Journey
@@ -105,12 +109,10 @@ function About() {
 
         <p>
           The world is full of places to discover and stories
-          to experience. Where will your curiosity take you next?
+          to experience. Where will your curiosity take you next? 
+          Travel, exploration, and adventure are endless in this boundless world. 
+          Along your journey, you may encounter them. Your next great adventure is waiting for you.
         </p>
-      </section>
-
-        {/* ROLE SELECTION */}
-        <section className="roles-section">
 
         <div className="roles-grid">
 
@@ -147,7 +149,7 @@ function About() {
             </article>
 
             <article className="role-card">
-            <img src="/images/trader.png" alt="Trader / Merchant" />
+            <img src="/images/trader.jpg" alt="Trader / Merchant" />
             <div className="role-overlay"></div>
             <div className="role-content">
                 <h3>Trader / Merchant</h3>
